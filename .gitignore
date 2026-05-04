@@ -1,0 +1,31 @@
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.iml
+
+# OS
+Thumbs.db
+
+# Dependencies
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+coverage/
+.next/
+out/
