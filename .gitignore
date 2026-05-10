@@ -29,3 +29,12 @@ yarn.lock
 coverage/
 .next/
 out/
+
+SEP Documents
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.txt
+*.md
+*.csv
