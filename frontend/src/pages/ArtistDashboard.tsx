@@ -65,7 +65,7 @@ function isUser(value: string | User): value is User {
   return typeof value !== 'string';
 }
 
-function getTrackStatus(track: Track): { label: 'Published'; classes: string } {
+function getTrackStatus(_track: Track): { label: 'Published'; classes: string } {
   return { label: 'Published', classes: 'bg-[#EAF8EE] text-[#2D9B4F] border border-[#2D9B4F]/30' };
 }
 
